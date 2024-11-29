@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.search-wrapper{
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.search-wrapper label{
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.search-wrapper input{
+    padding: .2rem;
+    border: 1px solid #000;
+}
+
+.users-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.card{
+    border: 1px solid #000;
+}
+
+.card > .header{
+    font-size: 16px;
+    margin: 10px;
+}
+
+.card > .body{
+    font-size: 12px;
+    color: #777;
+    margin: 10px;
+}
+
+.hide{
+    display: none;
+}

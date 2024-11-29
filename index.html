@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <div class="search-wrapper">
+            <label>Search Tool</label>
+            <input type="text" data-search>
+        </div>
+        <div class="users-card" data-user-card>
+            <template data-users-template >
+                <div class="card" data-card>
+                    <div class="header" data-header></div>
+                    <div class="body" data-body></div>
+                </div>
+            </template>
+        </div>
+
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
